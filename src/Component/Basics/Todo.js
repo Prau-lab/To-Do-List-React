@@ -79,9 +79,6 @@ const Todo = () => {
     localStorage.setItem("mytodolist", JSON.stringify(items)) //localstorage ma hami le key ra value dinu parcha ani value chai jaela pani string ko form ma hunu parcha hamro items chai array ko form ma bhayera hami le string ma convert gareko ho.
   }, [items])
 
-
-
-
   return (
     <>
       <div className="main-div">
