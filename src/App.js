@@ -4,11 +4,9 @@ import Todo from './Component/Basics/Todo';
 const App = () => {
   return (
     <>
-      <Todo />
+     <Todo />
     </>
   )
 }
 
 export default App;
-
-
